@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Run江南</string>
+    <string name="app_title">Run江南</string>
+    <string name="start_trace">开始</string>
+    <string name="stop_trace">停止</string>
+    <string name="select_date">日期</string>
+    <string name="is_processed">纠偏</string>
+    <string name="track_distance">里程</string>
+    <string name="track_upload">轨迹追踪</string>
+    <string name="track_query">历史轨迹</string>
+    <string name="cancel">取消</string>>
+    <string name="history_track">  查询历史轨迹</string>
+    <string name="realtime_track">查询实时轨迹</string>
+    <string name="my_info">我的信息</string>
+
+    <string name="permission">权限(permission)</string>
+    <string name="no_permissions">应用需要必要的运行权限</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+</resources>

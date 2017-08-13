@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="53dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:elevation="8dp"
+        android:layout_alignBottom="@+id/back_title" />
+
+    <View
+        android:id="@+id/back_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2196F3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/back_body"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/back_title"
+        android:layout_centerHorizontal="true"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/user_id"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/description"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/user_name"
+        android:layout_alignStart="@+id/user_name" />
+
+    <ImageView
+        android:id="@+id/user_checktimes"
+        android:layout_height="40dp"
+        android:background="@mipmap/check"
+        android:layout_below="@+id/user_id"
+        android:layout_marginTop="12dp"
+        android:layout_width="40dp"
+        android:layout_alignStart="@+id/user_id" />
+
+    <ImageView
+        android:id="@+id/user_name"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/id"
+        android:layout_marginStart="23dp"
+        android:layout_below="@+id/back_body"
+        android:layout_toEndOf="@+id/back" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:text="学  号："
+        android:textSize="18sp"
+        android:layout_above="@+id/user_checktimes"
+        android:layout_toEndOf="@+id/user_id" />
+
+    <TextView
+        android:id="@+id/checktimes"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:text="打  卡："
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/user_checktimes"
+        android:layout_toEndOf="@+id/user_checktimes" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:text="姓  名："
+        android:textSize="18sp"
+        android:layout_above="@+id/user_id"
+        android:layout_toEndOf="@+id/user_name" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/id"
+        android:layout_alignBottom="@+id/id"
+        android:layout_toEndOf="@+id/id" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:text="null"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/checktimes"
+        android:layout_alignBottom="@+id/checktimes"
+        android:layout_toEndOf="@+id/checktimes" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:text="null"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/name"
+        android:layout_alignBottom="@+id/name"
+        android:layout_toEndOf="@+id/name" />
+
+</RelativeLayout>

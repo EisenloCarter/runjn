@@ -1,0 +1,15 @@
+﻿  CServer.cpp
+CServer.cpp(26): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+CServer.cpp(27): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+CServer.cpp(34): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+CServer.cpp(115): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int (__stdcall *)(void)'
+CServer.cpp(125): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int (__stdcall *)(void)'
+CServer.cpp(141): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int (__stdcall *)(void)'
+CServer.cpp(159): warning C4476: 'printf' : unknown type field character '\r' in format specifier
+CServer.cpp(159): warning C4474: 'printf' : too many arguments passed for format string
+  CServer.cpp(159): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+CServer.cpp(88): warning C4101: 'clientSocket': unreferenced local variable
+CServer.cpp(106): warning C4101: 'saServer': unreferenced local variable

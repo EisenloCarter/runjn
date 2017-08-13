@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入学号："
+        android:id="@+id/stu_num"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view"
+        android:layout_below="@+id/take_pic" />
+
+    <Button
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stu_num"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:id="@+id/take_pic"
+        android:text="拍照"/>
+
+    <Button
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:id="@+id/enter"
+        android:text="进入"
+        android:visibility="gone"
+        android:layout_below="@+id/stu_num"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:background="#818a91"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:id="@+id/enterFake"
+        android:text="进入"
+        android:visibility="visible"
+        android:layout_below="@+id/stu_num"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:text="验证"
+        android:id="@+id/send_pic"
+        android:layout_below="@+id/stu_num"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image_view"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
